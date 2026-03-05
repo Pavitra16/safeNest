@@ -171,7 +171,13 @@ body{
   gap:22px;
 }
 
-.tool-card{
+
+
+  .tool-card{
+  display:block;
+  text-decoration:none;
+  color:inherit;
+
   border-radius:15px;
   padding:32px;
   min-height:160px;
@@ -181,6 +187,7 @@ body{
   position:relative;
   overflow:hidden;
 }
+
 
 .tool-card::after{
   content:"";
