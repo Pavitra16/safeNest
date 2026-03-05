@@ -31,7 +31,11 @@
   border-color: rgba(237, 62, 148, 0.4);
   box-shadow: 0 0 30px rgba(237, 62, 148, 0.1);
   transform: translateY(-8px);
+}
 body{
   background: radial-gradient(circle at top,#1b0f2f,#070310);
   min-height:100vh;
+}
+html {
+  scroll-behavior: smooth;
 }
