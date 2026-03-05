@@ -1,4 +1,36 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #ed3e94;
+  --color-brand-purple: #a855f7;
+  --color-brand-dark: #0a0a0c;
+  --color-brand-card: #16161d;
+}
+
+:root {
+  background-color: #0a0a0c;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-mesh {
+  background: 
+    radial-gradient(circle at 50% -20%, rgba(237, 62, 148, 0.15), transparent 40%),
+    radial-gradient(circle at 0% 100%, rgba(168, 85, 247, 0.05), transparent 40%);
+}
+
+.glass-card {
+  background: rgba(22, 22, 29, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.glass-card:hover {
+  border-color: rgba(237, 62, 148, 0.4);
+  box-shadow: 0 0 30px rgba(237, 62, 148, 0.1);
+  transform: translateY(-8px);
 body{
   background: radial-gradient(circle at top,#1b0f2f,#070310);
   min-height:100vh;
