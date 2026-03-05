@@ -1,19 +1,28 @@
-import Navbar from "./components/layout/Navbar";
-import Hero from "./components/landing/Hero";
-import Stats from "./components/landing/Stats";
-import Features from "./components/landing/Features";
-import HowItWorks from "./components/landing/HowItWorks";
-import Footer from "./components/layout/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+// import Login from "./pages/Login"
+// import Signup from "./pages/Signup"
+// import Dashboard from "./pages/Dashboard"
 
-export default function App() {
-  return (
-    <div className="min-h-screen bg-brand-dark">
-      <Navbar />
-      <Hero />
-      <Stats />
-      <Features />
-      <HowItWorks />
-      <Footer />
-    </div>
-  );
+function App() {
+
+return (
+
+<BrowserRouter>
+
+
+
+<Routes>
+
+
+
+</Routes>
+
+
+
+</BrowserRouter>
+
+)
+
 }
+
+export default App
