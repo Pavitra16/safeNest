@@ -4,11 +4,14 @@ import PieChartCard from "../components/PieChartCard";
 import LineChartCard from "../components/LineChartCard";
 import ScamList from "../components/ScamList";
 import {data} from "../data/statsData"
+import Navbar from "../components/layout/Navbar";
 
 export default function Dashboard() {
+
+  const isLoggedIn = false; // This would typically come from your auth logic
   return (
     <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white p-8 mt-15">
-
+      <Navbar isLoggedIn={isLoggedIn}/>
       <h1 className="text-3xl font-bold text-center mb-2">
         Scam Trend <span className="text-pink-500">Analytics</span>
       </h1>

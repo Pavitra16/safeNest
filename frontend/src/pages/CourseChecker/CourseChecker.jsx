@@ -1,10 +1,12 @@
 import React from "react";
 import "./CourseChecker.css";
+import Navbar from "../../components/layout/Navbar";
 
 function CourseChecker() {
+  const isLoggedIn = true; // This would typically come from your auth logic
   return (
     <div className="course-container">
-
+      <Navbar isLoggedIn={isLoggedIn}/>
       <div className="header">
         <p className="back">← Back to Dashboard</p>
 

@@ -1,10 +1,12 @@
 import React from "react";
 import "./JobScanner.css";
-
+import Navbar from "../../components/layout/Navbar";
 function JobScanner() {
+  const isLoggedIn = true; // This would typically come from your auth logic
   return (
-    <div className="jobscanner-container">
 
+    <div className="jobscanner-container">
+      <Navbar isLoggedIn={isLoggedIn}/>
       <div className="header">
         <p className="back">← Back to Dashboard</p>
 

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { FaEye, FaEyeSlash } from "react-icons/fa"
 
 export default function Login() {
@@ -73,9 +73,15 @@ export default function Login() {
       </div>
 
       {/* Login Button */}
-      <button className="w-full bg-pink-500 hover:bg-pink-600 transition font-semibold py-3 rounded-lg">
+      {/* <button className="w-full bg-pink-500 hover:bg-pink-600 transition font-semibold py-3 rounded-lg">
         Log In
-      </button>
+      </button> */}
+      <NavLink
+       to="/profile"
+       className="w-full bg-pink-500 hover:bg-pink-600 transition font-semibold py-3 rounded-lg"
+      >
+        Log In
+      </NavLink>
 
       <p className="text-center text-white mt-6">
         Don't have an account?

@@ -1,3 +1,5 @@
+import "./landingStyle.css";
+
 const features = [
   { title: "Job & Internship Scam Detection", desc: "AI-powered analysis detects fraudulent patterns in job offers, generating risk scores to classify them as Safe, Suspicious, or High Risk." },
   { title: "Fake Course Detection", desc: "Verify online courses and certifications before payment. Identifies fake accreditation claims and unrealistic guarantees." },

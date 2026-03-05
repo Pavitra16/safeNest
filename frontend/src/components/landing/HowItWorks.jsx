@@ -1,3 +1,7 @@
+import "./landingStyle.css";
+
+
+
 export default function HowItWorks() {
   const steps = [
     { id: "01", title: "Submit Details", desc: "Paste a job listing URL, course link, or website address." },

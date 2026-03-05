@@ -2,11 +2,17 @@ import React from "react";
 import "./UserProfile.css";
 import { NavLink } from "react-router-dom"
 import { data, stats, user } from "../../data/profileData";
+import Navbar from "../../components/layout/Navbar";
+
 const UserProfile = () => {
+
+  const isLoggedIn = true; // This would typically come from your auth logic
   return (
-    <div className="profile-container">
+    
+    <div className="profile-container ">
+     <Navbar isLoggedIn={isLoggedIn}/>
       {/* Header Card */}
-      <div className="profile-header">
+      <div className="profile-header mt-20">
         <div className="user-info">
           <div className="avatar"></div>
           <div>

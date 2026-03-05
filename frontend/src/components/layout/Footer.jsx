@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./layoutStyle.css";
 export default function Footer() {
   return (
     <footer className="py-20 border-t border-white/5 bg-brand-dark">

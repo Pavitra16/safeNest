@@ -38,7 +38,7 @@ Full Name
 type="text"
 value={name}
 onChange={(e)=>setName(e.target.value)}
-placeholder="John Doe"
+placeholder="ABC"
 className="w-full mt-2 text-white bg-[#1a1230] border border-[#2a203c] rounded-lg px-4 py-3 outline-none focus:border-pink-500"
 />
 
@@ -56,7 +56,7 @@ Email
 type="email"
 value={email}
 onChange={(e)=>setEmail(e.target.value)}
-placeholder="you@example.com"
+placeholder="abc@gmail.com"
 className="w-full mt-2 text-white bg-[#1a1230] border border-[#2a203c] rounded-lg px-4 py-3 outline-none focus:border-pink-500"
 />
 
@@ -92,11 +92,19 @@ className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-pink-
 
 </div>
 
-<button className="w-full bg-pink-500 hover:bg-pink-600 transition font-semibold py-3 rounded-lg">
+{/* <button className="w-full bg-pink-500 hover:bg-pink-600 transition font-semibold py-3 rounded-lg">
 
 Create Account
 
-</button>
+</button> */}
+<Link
+to="/profile"
+className="w-full bg-pink-500 hover:bg-pink-600 transition font-semibold py-3 rounded-lg"
+>
+
+Create Account
+
+</Link>
 
 <p className="text-center text-white mt-6">
 

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import "./landingStyle.css";
 
 export default function Stats() {
   const stats = [
