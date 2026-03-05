@@ -1,28 +1,25 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-// import Login from "./pages/Login"
-// import Signup from "./pages/Signup"
-// import Dashboard from "./pages/Dashboard"
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Dashboard from './pages/Dashboard'
+import Login from './pages/Login'
+import Signup from './pages/Signup'
+import Navbar from './components/layout/Navbar'
+import Footer from './components/layout/Footer'
 
-function App() {
-
-return (
-
-<BrowserRouter>
-
-
-
-<Routes>
-
-
-
-</Routes>
-
-
-
-</BrowserRouter>
-
-)
-
+const App = () => {
+  return (
+    <div>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+      </Routes>
+      <Footer/>
+    </div>
+  )
 }
 
 export default App
