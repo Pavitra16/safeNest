@@ -7,7 +7,7 @@ import {data} from "../data/statsData"
 
 export default function Dashboard() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white p-8">
+    <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white p-8 mt-15">
 
       <h1 className="text-3xl font-bold text-center mb-2">
         Scam Trend <span className="text-pink-500">Analytics</span>

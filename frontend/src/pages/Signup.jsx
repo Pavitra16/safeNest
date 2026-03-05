@@ -10,6 +10,7 @@ const [password,setPassword] = useState("")
 const [show,setShow] = useState(false)
 
 return(
+<div className="min-h-screen flex items-center justify-center bg-[#0b0519] mt-15">
 
 <div className="w-[420px] bg-[#110a20] border border-[#2b1f45] rounded-2xl p-8 shadow-2xl">
 
@@ -112,6 +113,7 @@ Log in
 
 </p>
 
+</div>
 </div>
 
 )
