@@ -1,4 +1,11 @@
+
 @import "tailwindcss";
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
 
 @theme {
   --color-brand-pink: #ed3e94;
@@ -35,7 +42,9 @@
 body{
   background: radial-gradient(circle at top,#1b0f2f,#070310);
   min-height:100vh;
+
 }
 html {
   scroll-behavior: smooth;
+
 }

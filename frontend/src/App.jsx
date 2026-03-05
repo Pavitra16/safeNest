@@ -1,3 +1,6 @@
+
+
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
@@ -6,6 +9,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
+
 
 const App = () => {
   return (
@@ -23,3 +27,4 @@ const App = () => {
 }
 
 export default App
+
